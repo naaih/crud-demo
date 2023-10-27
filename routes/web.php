@@ -10,12 +10,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// form
+// students form
 Route::get('form', function () {
     return view('form');
 });
 
-// students records page
+// show data to students records view
 Route::get('student-records', [FormController::class, 'getData']);
 
 // post data to database 
