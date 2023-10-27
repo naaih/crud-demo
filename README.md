@@ -1,4 +1,5 @@
-## CRUD DEMO
+## Crud Application 
+<p>first time crud application on laravel</p>
 
 ### screenshots:
 
