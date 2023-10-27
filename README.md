@@ -10,3 +10,7 @@
 
 3. records table
 ![image](records.png)
+
+### to do:
+1. reset id counter
+2. add pagination
