@@ -1,7 +1,5 @@
-## CRUD DEMO
-
-#### how to run:
-run command <code>php artisan serve</code>
+## Crud Application 
+<p>first time crud application on laravel</p>
 
 ### screenshots:
 
@@ -13,3 +11,7 @@ run command <code>php artisan serve</code>
 
 3. records table
 ![image](records.png)
+
+### to do: 
+1. reset id counter when all data is deleted. starting id count from one.
+2. add pagination when the table listing starts to increase.
