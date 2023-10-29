@@ -54,7 +54,7 @@
     </div>
 
     <div class="container">
-        <a href="http://localhost:8000">Go home</a>
+        <a href="http://localhost:8000">Go back</a>
     </div>
 
 
