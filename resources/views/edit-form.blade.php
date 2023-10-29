@@ -22,7 +22,7 @@
     <h1 class="text-center mt-4">Edit Student Forms</h1>
 
     <div class="container">
-        <form action="store_data" method="POST">
+        <form action="{{ url('update_data', $getData->id) }}" method="POST">
 
             @csrf
 
