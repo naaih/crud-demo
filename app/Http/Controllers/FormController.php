@@ -28,7 +28,7 @@ class FormController extends Controller
 
     // get data
     function getData() {
-        $getData = Student::all();
+        $getData = Student::paginate(5);
         return view('student-records', compact('getData'));
     }
 

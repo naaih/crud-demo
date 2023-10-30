@@ -13,6 +13,10 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        .w-5 {
+            display: none;
+        }
     </style>
 </head>
 
@@ -35,23 +39,23 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($getData as $getData)
+                @foreach ($getData as $getDatas)
                 <tr>
-                    <th>{{ $getData->id }}</th>
-                    <td>{{ $getData->name }}</td>
-                    <td>{{ $getData->email }}</td>
+                    <th>{{ $getDatas->id }}</th>
+                    <td>{{ $getDatas->name }}</td>
+                    <td>{{ $getDatas->email }}</td>
                     {{-- <td>{{$getData->password}}</td> --}}
-                    <td>{{ $getData->created_at }}</td>
-                    <td>{{ $getData->updated_at }}</td>
-                    <td><a href="edit_record/{{$getData->id}}"><button class="btn btn-primary">Edit</button></a></td>
-                    <td><a href="delete_record/{{$getData->id}}"><button class="btn btn-danger">Delete</button></a></td>
+                    <td>{{ $getDatas->created_at }}</td>
+                    <td>{{ $getDatas->updated_at }}</td>
+                    <td><a href="edit_record/{{$getDatas->id}}"><button class="btn btn-primary">Edit</button></a></td>
+                    <td><a href="delete_record/{{$getDatas->id}}"><button class="btn btn-danger">Delete</button></a></td>
                 </tr>
                 @endforeach
             </tbody>
         </table>
-        {{-- <span>
+        <span>
             {{ $getData->links() }}
-        </span> --}}
+        </span>
     </div>
 
 
