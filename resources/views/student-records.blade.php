@@ -21,10 +21,26 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">CRUD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/form">Form</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="student-records">Records</a>
+                </li>
+        </div>
+    </nav>
+    
 
     <h1 class="text-center mt-4">Student Records</h1>
-
-
 
     <div class="container">
         <table class="table">
@@ -58,10 +74,6 @@
         </span>
     </div>
 
-
-    <div class="container">
-        <a class="btn btn-primary" href="http://localhost:8000/">Go back</a>
-    </div>
 </body>
 
 </html>
